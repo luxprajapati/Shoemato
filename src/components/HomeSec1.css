@@ -1,0 +1,69 @@
+/* Image animation */
+.image-animation{
+  /* transition: transform 1s, 2s ease-in-out; */
+  /* filter: blur(2px); */
+  /* transform: scale(1.2); */
+  animation: zoom-out 4000ms ease-in-out 1;
+}
+@keyframes zoom-out{
+  0%{
+    transform: scale(1.5);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+/* Left button animation */
+.initialPositionleft{
+  left: 60px;
+}
+.leftBtnAnimation{
+  animation: left-Btn 400ms ease-in-out 1;
+}
+@keyframes left-Btn {
+  0%{
+    left: 0px
+  }
+  100%{
+    left: 60px;
+  }  
+}
+
+/* Right button animation */
+.initialPositionRight{
+  right: 60px;
+}
+.rightBtnAnimation{
+  animation: right-Btn 400ms ease-in-out 1;
+}
+@keyframes right-Btn {
+  0%{
+    right: 0px
+  }
+  100%{
+    right: 60px;
+  }
+  
+}
+/* tag line bouncing animation */
+.bouncing-animation{
+  animation: bouncing 500ms ease-in-out 1;
+}
+@keyframes bouncing {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-30px);
+  }
+  70%{
+    transform: translateY(0);
+  }
+  90%{
+    transform: translateY(-15px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}

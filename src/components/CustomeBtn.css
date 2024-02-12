@@ -1,0 +1,38 @@
+.btn{
+  /* background-color: rgb(249 115 22); */
+  background: white;
+  width: fit-content;
+  color: black;
+  padding: 0.7rem 2.5rem;
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+  border-radius: 0.125rem
+  /* min-width: 200px; */
+}
+
+.btn::before{
+  content: "";
+  position: absolute;
+  /* background-color: rgb(249 115 22); */
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  transform: scaleX(1);
+  transform-origin: left right;
+  transition: 0.5s ease-in-out;
+  border-radius: 0.125rem
+}
+.btn:hover{
+  color:aliceblue;
+  cursor: pointer;
+  border-radius: 0.125rem
+}
+.btn:hover::before{
+  transform: scaleX(1); 
+  background-color: rgb(249 115 22);
+  border-radius: 0.125rem
+  /* transform-origin: right; */
+}
