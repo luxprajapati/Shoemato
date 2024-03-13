@@ -10,6 +10,7 @@ import WomenShoes from "./pages/WomenShoes";
 import KidShoes from "./pages/KidShoes";
 import SportShoes from "./pages/SportShoes";
 import DOD from "./pages/DOD";
+import { Tooltip } from "react-tooltip";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
       </Routes>
 
       <ToastContainer position="top-center" />
+      <Tooltip id="my-tooltip" />
     </div>
   );
 };

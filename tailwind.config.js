@@ -11,9 +11,11 @@ module.exports = {
       },
       backgroundColor: {
         customeRed: "#f52b07",
+        customeWhite: "#f5f7ed",
       },
       textColor: {
         customeBlack: "#2e2d2d",
+        customeGray: "#7c7d79",
       },
     },
   },

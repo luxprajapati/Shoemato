@@ -70,7 +70,7 @@ const products = [
       "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel with subtly curved lenses. These striking, sophisticated sunglasses offer timeless design updated with shiny gold metal accents at the temples for just a bit of bling. The wide frame...",
     price: 11895.0,
     category: "men",
-    subCategory:"nike",
+    subCategory: "nike",
     image:
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/831167c9-9040-45b8-96ba-79819ab3e628/air-flight-lite-mid-shoe-GrnpgF.png",
     image2:
@@ -240,61 +240,6 @@ const products = [
     image4:
       "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/ce4a0110-0ad0-43e1-8622-f7e8b702f8da/custom-dunk-high-unlocked-warped-by-you.png",
   },
-  // {
-  //   id: 16,
-  //   name: "",
-  //   description:
-  //     "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel with subtly curved lenses. These striking, sophisticated sunglasses offer timeless design updated with shiny gold metal accents at the temples for just a bit of bling. The wide frame...",
-  //   price: 0,
-  //   image: "",
-  //   image2: "",
-  //   image3: "",
-  //   image4: "",
-  // },
-  // {
-  //   id: 17,
-  //   name: "",
-  //   description:
-  //     "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel with subtly curved lenses. These striking, sophisticated sunglasses offer timeless design updated with shiny gold metal accents at the temples for just a bit of bling. The wide frame...",
-  //   price: 0,
-  //   image: "",
-  //   image2: "",
-  //   image3: "",
-  //   image4: "",
-  // },
-  // {
-  //   id: 18,
-  //   name: "",
-  //   description:
-  //     "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel with subtly curved lenses. These striking, sophisticated sunglasses offer timeless design updated with shiny gold metal accents at the temples for just a bit of bling. The wide frame...",
-  //   price: 0,
-  //   image: "",
-  //   image2: "",
-  //   image3: "",
-  //   image4: "",
-  // },
-  // {
-  //   id: 19,
-  //   name: "",
-  //   description:
-  //     "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel with subtly curved lenses. These striking, sophisticated sunglasses offer timeless design updated with shiny gold metal accents at the temples for just a bit of bling. The wide frame...",
-  //   price: 0,
-  //   image: "",
-  //   image2: "",
-  //   image3: "",
-  //   image4: "",
-  // },
-  // {
-  //   id: 20,
-  //   name: "",
-  //   description:
-  //     "Things You Need To Know Using advanced edging technology and high-quality materials, our premium sunglasses have a luxurious look and feel with subtly curved lenses. These striking, sophisticated sunglasses offer timeless design updated with shiny gold metal accents at the temples for just a bit of bling. The wide frame...",
-  //   price: 0,
-  //   image: "",
-  //   image2: "",
-  //   image3: "",
-  //   image4: "",
-  // },
 ];
 
 export default products;

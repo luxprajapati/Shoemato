@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "../assets/BrandLogo.png";
 import { IoIosSearch } from "react-icons/io";
@@ -7,8 +7,12 @@ import { FaRegHeart } from "react-icons/fa";
 import { LiaShoppingBagSolid } from "react-icons/lia";
 import { HiMiniBars3CenterLeft } from "react-icons/hi2";
 import "./Navbar.css";
+import AppContext from "../context/AppContext";
 
 const Navbar = () => {
+  const { setShowProductList } = useContext(AppContext);
+  // console.log("SHowProduct==>" + showProductList);
+
   return (
     <div
       className="flex flex-row justify-between items-center p-2  
@@ -33,24 +37,48 @@ const Navbar = () => {
       </div>
 
       <div className="flex-row gap-x-10 font-semibold text-customeBlack text-[16px] xl:flex  hidden font-jost">
-        <div>
+        <div
+          onMouseEnter={() => {
+            setShowProductList(true);
+          }}
+          onMouseLeave={() => {
+            setTimeout(() => {
+              setShowProductList(false);
+            }, 400);
+          }}
+          id="men"
+        >
           <NavLink to="/men">
             <div className="flex flex-col justify-center items-center">
               <div className="hover-underline-animation px-1">Men</div>
             </div>
           </NavLink>
         </div>
-        <div>
+        <div
+          onMouseEnter={() => {
+            setShowProductList(true);
+          }}
+          onMouseLeave={() => {
+            setShowProductList(false);
+          }}
+        >
           <NavLink to="/women">
             <div className="hover-underline-animation px-1">Women</div>
           </NavLink>
         </div>
-        <div>
+        <div
+          onMouseEnter={() => {
+            setShowProductList(true);
+          }}
+          onMouseLeave={() => {
+            setShowProductList(false);
+          }}
+        >
           <NavLink to="/kid">
             <div className="hover-underline-animation px-1">Kids</div>
           </NavLink>
         </div>
-        <div className="">
+        <div>
           <NavLink to="/dod">
             <div className="hover-underline-animation px-1">
               Deals of the Day
@@ -60,12 +88,26 @@ const Navbar = () => {
             </div>
           </NavLink>
         </div>
-        <div>
+        <div
+          onMouseEnter={() => {
+            setShowProductList(true);
+          }}
+          onMouseLeave={() => {
+            setShowProductList(false);
+          }}
+        >
           <NavLink to="/sports">
             <div className="hover-underline-animation px-1">Sports</div>
           </NavLink>
         </div>
-        <div>
+        <div
+          onMouseEnter={() => {
+            setShowProductList(true);
+          }}
+          onMouseLeave={() => {
+            setShowProductList(false);
+          }}
+        >
           <NavLink to="#">
             <div className="hover-underline-animation px-1">SNKRS</div>
           </NavLink>
