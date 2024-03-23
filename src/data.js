@@ -1,3 +1,9 @@
+import NikeBasketBall from "./assets/nikeBasketball.jpg";
+import NikeTrail from "./assets/nikeTrail.jpg";
+import NikeGolf from "./assets/nikeGolf.jpg";
+import NikeTenis from "./assets/nikeTenis.jpg";
+import NikeFootball from "./assets/nikeFootball.jpg";
+
 const products = [
   {
     id: 1,
@@ -242,4 +248,46 @@ const products = [
   },
 ];
 
-export default products;
+const sportShopping = [
+  {
+    id: 1,
+    link: "#",
+    name: "Nike Basketball  ",
+    description: "Style made for your game.",
+    image: NikeBasketBall,
+    commonShopLink: "#",
+  },
+  {
+    id: 2,
+    link: "#",
+    name: "Nike Trail",
+    description: "Gear that leads to wild places.",
+    image: NikeTrail,
+    commonShopLink: "#",
+  },
+  {
+    id: 3,
+    link: "#",
+    name: "Nike Golf",
+    description: "Conquer the course in style.",
+    image: NikeGolf,
+    commonShopLink: "#",
+  },
+  {
+    id: 4,
+    link: "#",
+    name: "Nike Tenis",
+    description: "Serve up in style.",
+    image: NikeTenis,
+    commonShopLink: "#",
+  },
+  {
+    id: 5,
+    link: "#",
+    name: "Nike Football",
+    description: "Bring mad Style to the pitch with the latest gear.",
+    image: NikeFootball,
+    commonShopLink: "#",
+  },
+];
+export { products, sportShopping };

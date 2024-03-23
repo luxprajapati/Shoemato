@@ -13,6 +13,7 @@ function AppContextProvider({ children }) {
   const [showProductList, setShowProductList] = useState(false);
   const [productCard, setProductCard] = useState(false);
   const [offerTime, setOfferTime] = useState("");
+
   const trendingImg = trendImg;
 
   // Here we are creating the imgArr
