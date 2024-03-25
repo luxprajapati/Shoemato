@@ -5,7 +5,7 @@ import AppContext from "../context/AppContext";
 import { HomeSec2 } from "../components/HomeSec2";
 import { HomeSec3 } from "../components/HomeSec3";
 import { HomeSec4 } from "../components/HomeSec4";
-import { Footer } from "../components/Footer";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const { showProductList } = useContext(AppContext);
